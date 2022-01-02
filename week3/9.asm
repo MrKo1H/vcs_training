@@ -1,9 +1,9 @@
-section .data:
+section .data
 	format1 db '%d', 0	
 	nhapn db 'nhap n=',0
 	format2 db '%d', 0
 
-section .text:
+section .text
 	global start
 	extern _scanf
 	extern _printf
